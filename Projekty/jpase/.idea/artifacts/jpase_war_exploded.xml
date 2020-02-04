@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="jpase:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/jpase_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="jpase/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jpase" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
